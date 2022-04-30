@@ -49,8 +49,8 @@ echo ## Musica >> %file%
 echo > También tengo como hobby hacer música, no soy muy bueno pero le voy pillando práctica. Te invito a mirar mi canal de youtube o mi cuenta de opensea para que puedas escuchar todas mis canciones y remixes. >> %file%
 echo https://soynashi.tk/info/music/index.html >> %file%
 
-move %file% "/done"
-
+move %file% "done/"
+set file=README.md
 echo ## Readme editor > %file%
 echo #### Readme maker >> %file%
 echo --- >> %file%
